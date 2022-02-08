@@ -21,14 +21,14 @@ function base64(input, ed) {
 function md5(input) {
 	return input;
 }
-
 function encrypt(type,input) {
-	if (type='base64') {
-	output = base64(input,'e');
-}
-	if (type='md5') {
-	output = md5(input);
-}
+	if (type == 'base64') {
+		output = base64(input,'e');
+	} else if (type == 'md5') {
+		output = md5(input);
+	} else {
+		output = "ERROR: "+type+": "+input
+	}
 	//output = 'ERROR:'+type+': '+input
 	//output = '69'
 	return output;
