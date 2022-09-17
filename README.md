@@ -1,7 +1,7 @@
 # test
 for testing github things
 
-[test](https://youtube.com)
+[test](https://google.com)
 
 
 [link](https://blanksausage.ga/test)
